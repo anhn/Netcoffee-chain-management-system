@@ -1,0 +1,354 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{997A3118-3E71-42E6-85DC-ACACA77F0E39}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NetCafe</RootNamespace>
+    <AssemblyName>NetCafe</AssemblyName>
+    <ApplicationIcon>NetCafe64.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="database, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\library\database.dll</HintPath>
+    </Reference>
+    <Reference Include="ExpandableGridView, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\library\ExpandableGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Account.designer.cs">
+      <DependentUpon>Account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Algorithm.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BossMan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BossMan.designer.cs">
+      <DependentUpon>BossMan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalendarClmn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CalMoney.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalMoney.designer.cs">
+      <DependentUpon>CalMoney.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientInformDetails.cs" />
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataChangedBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataChangedBox.designer.cs">
+      <DependentUpon>DataChangedBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PriceTutorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PriceTutorial.designer.cs">
+      <DependentUpon>PriceTutorial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PriceWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PriceWizard.Designer.cs">
+      <DependentUpon>PriceWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SwitchUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SwitchUser.designer.cs">
+      <DependentUpon>SwitchUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimeUserReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TimeUserReport.Designer.cs">
+      <DependentUpon>TimeUserReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserAccount.designer.cs">
+      <DependentUpon>UserAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DecServerIP.cs" />
+    <Compile Include="ffffffffff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ffffffffff.Designer.cs">
+      <DependentUpon>ffffffffff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GradientPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GradientPanel.Designer.cs">
+      <DependentUpon>GradientPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpForm.Designer.cs">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParaSystem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParaSystem.designer.cs">
+      <DependentUpon>ParaSystem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PasswordChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PasswordChange.designer.cs">
+      <DependentUpon>PasswordChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Flash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Flash.Designer.cs">
+      <DependentUpon>Flash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn.designer.cs">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogSystem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogSystem.designer.cs">
+      <DependentUpon>LogSystem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MonthlyReceiptReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MonthlyReceiptReport.designer.cs">
+      <DependentUpon>MonthlyReceiptReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Account.resx">
+      <DependentUpon>Account.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BossMan.resx">
+      <DependentUpon>BossMan.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalMoney.resx">
+      <DependentUpon>CalMoney.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataChangedBox.resx">
+      <DependentUpon>DataChangedBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PriceTutorial.resx">
+      <DependentUpon>PriceTutorial.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PriceWizard.resx">
+      <DependentUpon>PriceWizard.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SwitchUser.resx">
+      <DependentUpon>SwitchUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeUserReport.resx">
+      <DependentUpon>TimeUserReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserAccount.resx">
+      <DependentUpon>UserAccount.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ffffffffff.resx">
+      <DependentUpon>ffffffffff.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GradientPanel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GradientPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpForm.resx">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParaSystem.resx">
+      <DependentUpon>ParaSystem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PasswordChange.resx">
+      <DependentUpon>PasswordChange.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Flash.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Flash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn.resx">
+      <DependentUpon>LogIn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogSystem.resx">
+      <DependentUpon>LogSystem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonthlyReceiptReport.resx">
+      <DependentUpon>MonthlyReceiptReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportChoose.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReportChoose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserMan.resx">
+      <DependentUpon>UserMan.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ReportChoose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportChoose.Designer.cs">
+      <DependentUpon>ReportChoose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServerSocket.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SockComm.cs" />
+    <Compile Include="UserMan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserMan.designer.cs">
+      <DependentUpon>UserMan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility.cs" />
+    <Compile Include="WinAPI.cs" />
+    <Compile Include="WinEffect.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filesave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mscf.ico" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="Resources\Shutdown.png" />
+    <None Include="Resources\LogOff.png" />
+    <None Include="Resources\Restart.png" />
+    <None Include="Resources\Standby.png" />
+    <None Include="Resources\close.png" />
+    <None Include="Resources\boss_3.png" />
+    <Content Include="NetCafe64.ico" />
+    <None Include="Resources\caption_gradient.png" />
+    <None Include="Resources\erase_clear.png" />
+    <None Include="Resources\day.png" />
+    <None Include="Resources\date.png" />
+    <None Include="Resources\banggia.png" />
+    <None Include="Resources\manager_3.png" />
+    <None Include="Resources\NetCafe.png" />
+    <None Include="Resources\menu2.png" />
+    <None Include="Resources\menu3.png" />
+    <None Include="Resources\menu4.png" />
+    <None Include="Resources\lists_del2.png" />
+    <None Include="Resources\kword_del1.png" />
+    <Content Include="Resources\NetCafe32.ico" />
+    <None Include="Resources\Post.png" />
+    <Content Include="Resources\refesh.png" />
+    <Content Include="Resources\winxp_logo_n_0701.png" />
+    <None Include="Resources\winxp_logo_n_07011.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

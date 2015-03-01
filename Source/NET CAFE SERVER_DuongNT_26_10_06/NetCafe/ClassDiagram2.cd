@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="NetCafe.FrmAccount" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Account.cs</FileName>
+      <HashCode>UDACAhABASAAABCAAACAAAECIEIYAAAAAGAIAQBAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.Algorithm" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Algorithm.cs</FileName>
+      <HashCode>QQAAAAGAAACAAAAQgAgAASAACAACAAABAAAIAACAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.BossMan" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BossMan.cs</FileName>
+      <HashCode>AHAAMQQBACAAABAAAA2AAAACAAAsAAAAAGAEwQBAgCA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.CalendarColumn" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CalendarClmn.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.CalendarCell" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CalendarClmn.cs</FileName>
+      <HashCode>AACAAAAAAAAABAAAAAAAAAAAAAAAEAAAAAAAAAAAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.CalendarEditingControl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CalendarClmn.cs</FileName>
+      <HashCode>gAAACAIAAIAAAEAAgAAAQAAAAAAAQAMAAUAAAAAIAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetCafe.FrmCalMoney" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CalMoney.cs</FileName>
+      <HashCode>AAAQAAAAACAAABAAEACQAAAiIAAYAAAAAGAAABAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.FrmDailyReceiptReport" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DailyReceiptReport.cs</FileName>
+      <HashCode>AAIAAAAAAjAIoBCAAASAAAACAAgAAAAAAgAAAwAgAAw=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.FrmFlash" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Flash.cs</FileName>
+      <HashCode>AAQAAAAAACAAAAAAAACAAAACAAAAIEAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.GradientPanel" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>GradientPanel.cs</FileName>
+      <HashCode>AAQCAAAAACAAAAAAIAGAICACAAAoAAAAAAAAgAAAQAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.FrmHelpForm" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>HelpForm.cs</FileName>
+      <HashCode>AAAAAAAAAiAAAAAQAACAAAACAAAAAABAAAACAQAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.HelpTab" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>HelpTab.cs</FileName>
+      <HashCode>AAACAgAAADAAABAAAACAIABCEEAiAAAgAIAAAAgAgAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.FrmLogIn" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>LogIn.cs</FileName>
+      <HashCode>AjQoQhQRACAAABIABAGQCAETAMA4IAgCUHAsAQBAQCA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.FrmLogSystem" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>LogSystem.cs</FileName>
+      <HashCode>ADAAAAUBAjAIABCDoNCAAFAKAAgQQAABAGAACQCAACQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.FrmMain" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MainForm.cs</FileName>
+      <HashCode>pRVESA0hETwtDLCbghiUEmLrBBAYMSoJqPhfLaCQEBw=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.FrmMonthlyReceiptReport" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MonthlyReceiptReport.cs</FileName>
+      <HashCode>ADIAAAUBQjAAABCAgtCAABACAKA4AAAAAHAMCQAAIgQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.FrmParaSystem" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ParaSystem.cs</FileName>
+      <HashCode>ADAAAAAAACAAABQQAACAAAACAAA4AACAEHCAAQBAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.FrmPasswordChange" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>PasswordChange.cs</FileName>
+      <HashCode>ADAEAhQBECAAIBAJAACQAAFCAEMYAAgAEGIAAQBAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.FrmPriceWizard" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>PriceWizard.cs</FileName>
+      <HashCode>8DBIAAGBAzAbQBTRQgGE6AASIAoYIggIcGCgFYABjI4=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.Program" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Program.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.FrmReportChoose" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ReportChoose.cs</FileName>
+      <HashCode>ADAAAAAAAiAAABAAAAiAAAAKAAAQgBAAACgAIQAABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.ServerSocket" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ServerSocket.cs</FileName>
+      <HashCode>AAAAAgkQAKQAgkIAAGAgEAAIABIAACCBICAAAAGABgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.ClientInfo" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ServerSocket.cs</FileName>
+      <HashCode>AAQAAEAUADAAEAAgAEAAAAgAKAAACAAQQJAAABAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.CommPack" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SockComm.cs</FileName>
+      <HashCode>AAAAAAIAAAAAAQAAAAAAAABAAAAAAAAAAAAAAACQAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.SockComm" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SockComm.cs</FileName>
+      <HashCode>AAAAAAAAAAAACAQAAkAAAAAgAAAAAAAQABAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.FrmTimeUserReport" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TimeUserReport.cs</FileName>
+      <HashCode>ADAAAAUAACAAABACgECAQFACAII4BAAAEHAECQAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.FrmUserChoose" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>UserChoose.cs</FileName>
+      <HashCode>AAAAQAABAGAAgBAAAACAAAECAMI5gAAAAHAOAABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.UserMan" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>UserMan.cs</FileName>
+      <HashCode>ADAAAQABACEAABAAAA2AAAACAAAoAAAQQGAAQQBAgCA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.WinAPI" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>WinAPI.cs</FileName>
+      <HashCode>BABAACAAAgAAAAAiICAAAAMAAAAAAAAAAQAAAAAQAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.WinEffect" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>WinEffect.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.Properties.Resources" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EmAAAYAAgAAAAAAAEAwBEcAUDQAIAAAAAIAAgCQAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetCafe.Properties.Settings" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="NetCafe.SaleOff" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Algorithm.cs</FileName>
+      <HashCode>AAAAAAACAACAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="NetCafe.ServerErrorCodes" Collapsed="true">
+    <Position X="5.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ServerSocket.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NetCafe.ClientErrorCodes" Collapsed="true">
+    <Position X="2.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ServerSocket.cs</FileName>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NetCafe.Commands" Collapsed="true">
+    <Position X="4" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ServerSocket.cs</FileName>
+      <HashCode>sAAQAAAAAAAAAIgAAAAAAQAQgGAAAAEAAAABAAAIAQA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NetCafe.AnimateWindowStyle" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>WinEffect.cs</FileName>
+      <HashCode>AAAAAECAAAAIAAIAACAAAAAAAAAAAgAAAAQAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="NetCafe.OnAcceptEventHandler" Collapsed="true">
+    <Position X="0.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ServerSocket.cs</FileName>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="NetCafe.OnServerErrorHandler" Collapsed="true">
+    <Position X="0.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ServerSocket.cs</FileName>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="NetCafe.OnClientConnectEventHandler" Collapsed="true">
+    <Position X="2.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ServerSocket.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAACAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="NetCafe.OnClientDisconnectEventHandler" Collapsed="true">
+    <Position X="4" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ServerSocket.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAACAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="NetCafe.OnClientErrorEventHandler" Collapsed="true">
+    <Position X="5.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ServerSocket.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAQAAAAAACAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="NetCafe.OnClientReadEventHandler" Collapsed="true">
+    <Position X="7.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ServerSocket.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAACAAEAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="NetCafe.OnClientWriteEventHandler" Collapsed="true">
+    <Position X="9.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ServerSocket.cs</FileName>
+      <HashCode>AAAAACAAAAAAAAAAAAAAEAAQAAAAAAAACAAAAAAAAQA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+</ClassDiagram>
